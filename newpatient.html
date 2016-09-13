@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  <h3>Admit New Patient</h3>
+    <form>
+      <fieldset>
+        <legend>New Patient Information:</legend>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname">
+        <label for="birthdate">Birthdate (yyyy/mm/dd): </label>
+        <input type="text" name="birthdate" id="birthdate"><br/><br/>
+        <label for="weight">Weight (lbs): </label>
+        <input type="text" name="weight" id="weight">
+        <label for="height">Height (inches): </label>
+        <input type="text" name="height" id="height">
+        <label for "sex">Sex: </label>
+        <select>
+        	<option value="F">Female</option>
+        	<option value="M">Male</option>
+        	<option value="O">Other</option>
+        </select>
+      </fieldset>
+      <br/>
+      <fieldset>
+      	<legend>Medical History</legend>
+      	<input type="checkbox" name="history" value="Tobacco Use">Tobacco Use
+      	<input type="checkbox" name="history" value="Alcohol Use">Alcohol Use<br/>
+      	<input type="checkbox" name="history" value="Cancer">Cancer
+      	<input type="checkbox" name="history" value="Arthritis">Arthritis<br/>
+      	<input type="checkbox" name="history" value="Heart Disease">Heart Disease
+      	<input type="checkbox" name="history" value="Diabetes">Diabetes<br/>
+      	<input type="checkbox" name="history" value="Autoimmune">Autoimmune
+      	<input type="checkbox" name="history" value="Stroke">Stroke<br/>
+      </fieldset>
+      <br/>
+      <fieldset>
+      	<legend>Patient Status</legend>
+      	<input type="radio" name="status" value="inpatient">Inpatient<br/>
+      	<input type="radio" name="status" value="outpatient">Outpatient<br/>
+      </fieldset>
+      <br/>
+      <button type="reset" value="Reset">Reset</button>
+      <input type="submit" id="newPatient" value="Admit New Patient">
+    </form>
+    <a href="mainpage.html">Back</a>
+  </body>
+</html>

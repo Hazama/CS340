@@ -1,0 +1,58 @@
+nav {
+    float: left;
+    width: 30%;
+    margin-left: 1em;
+    margin-bottom: 3em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 60%;
+}
+
+th {
+    height: 50px;
+    background-color: #808080;
+}
+
+div#S {
+    float: left;
+    width: 60%;
+    margin-bottom: 3em;
+}
+div#buttonParade {
+	float: left;
+	text-align: center;
+}
+
+#b1{
+    width: 300px;
+    height: 40px;
+}
+
+#b2{
+    width: 300px;
+    height: 40px;
+}
+
+#b3{
+    width: 300px;
+    height: 40px;
+}
+#b4{
+    width: 300px;
+    height: 40px;
+}
+
+#b5{
+    width: 300px;
+    height: 40px;
+}

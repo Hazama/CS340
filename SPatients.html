@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Front Desk</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+  <h1>Front Desk - Search Patients</h1>
+   <nav>
+  <h3>Front Desk</h3>
+  <ul>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/mainpage.html">FrontDesk Main</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/new_patient.php">New Patient</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/exist_patient.php">Existing Patient</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/SearchPatient.php">Search Patients</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/SearchStaff.php">Search Staff</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/front_desk/AssignDoc.php">Assign Doctor</a></li>
+      </ul>
+  <h3>Medical Staff</h3>
+  <ul>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/medical_main.html">Medical Staff Main</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/patient_chart.php">Patient Charts</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/assign_lab_test.php">Order Lab Test</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/SearchLab.php">Search Lab Tests</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/EditLabRes.php">Update Lab Results</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/add_medical_record.php">Add to Medical Record</a></li>
+          <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/medical_staff/update_patient_record.php">Update Patient Record</a></li>
+        </ul>
+  <h3>Administration</h3>
+  <ul>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/admin_main.html">Administration Main</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/SearchDepartment.php">Search/Add Departments</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/EditDepartment.php">Edit Departments</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/ASearchStaff.php">Search Staff</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/ASearchStaff.php">Search Staff</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/AdminStaff.php">Add/Edit Staff</a></li>
+        <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/admin/add_lab_test.php">Add Lab Test</a></li>
+      </ul>
+  <h3>Common</h3>
+  <ul>
+    <li><a href="http://web.engr.oregonstate.edu/~mcinnisb/dept_phone.php">Department Phone Numbers</a></li>
+  </ul>
+  </nav>
+  
+  <div id="SP">
+  <h2>Search Patients</h2>
+  <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+	<fieldset>
+	<legend>Search parameters</legend>
+	<label>Patient ID:<input type="text" name="pid" size="20" maxlength="100"></label>
+	<label>First Name:<input type="text" name="fname" size="20" maxlength="100"></label>
+	<label>Last Name:<input type="text" name="lname" size="20" maxlength="100"></label>
+	</br>
+	<label>Height:<input type="text" name="height" size="20" maxlength="100"></label>
+	<label>Weight:<input type="number" name="weight" size="20" maxlength="100"></label>
+	 <label>Sex:<select name="sex">
+        <option value="F">Female</option>
+        <option value="M">Male</option>
+        <option value="O">Other</option>
+    </select>
+	</label>
+	</br>
+	<label>Admit Date:<input type="date" name="adate" size="20" maxlength="100"></label>
+	<label>Birthdate:<input type="date" name="bdate" size="20" maxlength="100"></label>
+	<label>Status:<select name="status">
+	<option value="inpatient">Inpatient</option>
+	<option value="outpatient">Outpatient</option>
+	</select>
+	</label>
+	</br>
+	<label>Discharge Date:<input type="date" name="ddate" size="20" maxlength="100"></label>
+	</fieldset>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+  </form>
+  </div>
+  <div>
+  <a href="http://web.engr.oregonstate.edu/~gossje/mainpage.html">Back</a>
+  </div>
+  </body>
+</html>
